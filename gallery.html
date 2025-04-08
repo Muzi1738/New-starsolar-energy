@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery - Star Solar Energy and Electrical Services</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="icon" type="image/png" sizes="200x200"
+        href="logo.jpg">
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+            <div class="logo">
+                <a href="index.html"><img src="logo.jpg" alt="Formula 1 Fan Hub Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sidebar Menu -->
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+    </div>
+    <main class="main-gallery">
+        <br>
+        <br>
+        <h2>Welcome To Our Electrifying Gallery</h2>
+        <hr class="mail-hr">
+        <div class="gallery">
+            <img src="image1.jpg" alt="Oscar Piastri">
+            <img src="2.jpg" alt="Lewis Hamilton">
+            <img src="6.jpg" alt="Max Verstappen">
+            <img src="image4.jpg" alt="Carlos Sainz">
+            <img src="image5.jpg" alt="Albon">
+            <img src="1.jpg" alt="Albon">
+            <img src="image2.jpg" alt="Albon">
+            <img src="3.jpg" alt="Albon">
+            <img src="4.jpg" alt="Albon">
+            <img src="5.jpg" alt="Albon">
+            <img src="image3.jpg" alt="Albon">
+            <img src="image1.jpg" alt="Albon">
+            <img src="image4.jpg" alt="Albon">
+        </div>
+        <hr class="mail-hr">
+        <br>
+        <br>
+
+        <h2>The Voltage Carousel</h2>
+        <hr class="mail-hr">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="hero.jpg" alt="carou-img" style="width:100%; height: 400px;">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="image4.jpg" alt="carou-img" style="width:100%; height: 400px;">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="image3.jpg" alt="carou-img" style="width:100%; height: 400px;">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="image5.jpg" alt="carou-img" style="width:100%; height: 400px;">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="image2.jpg" alt="carou-img" style="width:100%; height: 400px;">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        <hr class="mail-hr">
+
+    </main>
+    <footer>
+        <section class="quick-links">
+            <h2>Quick Links</h2>
+            <hr class="underline-hr">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="services.html">Services</a>
+            </div>
+        </section>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <hr>
+        <p>&copy; 2025 Star Solar Energy and Electrical Services. All rights reserved.</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/0634651594" class="whatsapp-float" target="_blank">
+        <img src="whatsapp.jpg" alt="WhatsApp">
+    </a>
+    
+    <script src="script.js"></script>
+    <script src="slides.js"></script>
+</body>
+</html>
