@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - Star Solar Energy and Electrical Services</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="icon" type="image/png" sizes="200x200"
+        href="logo.jpg">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+            <div class="logo">
+                <a href="index.html"><img src="Logo.jpg" alt="Formula 1 Fan Hub Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sidebar Menu -->
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+    </div>
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <hr class="underline-hr">
+            <p>We would love to hear from you! Please fill out the form below and we will get in touch with you shortly.</p>
+            <form action="contact.php" method="POST" id="contact-form">
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" id="first-name" class="contact-field" data-field-label="First name" required>
+        
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name" class="contact-field" data-field-label="Last name" required>
+        
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" class="contact-field" data-field-label="Email address" required>
+        
+                <label for="reason">Reason for Contact:</label>
+                <select name="reason" id="reason" class="contact-field" data-field-label="Reason for contact" required>
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+        
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" class="contact-field" data-field-label="Message" required></textarea>
+        
+                <button type="submit" id="contact-button">Submit</button>
+                <p id="contact-feedback"></p>
+            </form>
+            <section class="call-sec>">
+                <h2>You Can Call Us On</h2>
+                <hr class="underline-hr">
+                <a><p>073 971 0928</p></a>
+                <a><p>073 882 1831</p></a>
+            </section>
+        </section>
+        
+    </main>
+
+    <footer>
+        <section class="quick-links">
+            <h2>Quick Links</h2>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="teams.html">Teams</a>
+            </div>
+        </section>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <hr>
+        <p>&copy; 2025 Star Solar Energy and Electrical Services. All rights reserved.</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/0634651594" class="whatsapp-float" target="_blank">
+        <img src="whatsapp.jpg" alt="WhatsApp">
+    </a>
+    
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
+
