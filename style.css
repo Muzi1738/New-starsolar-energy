@@ -72,7 +72,7 @@ nav {
   left: 0;
   background-color: none;
   color: #f5b1b1;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(300px);
   border: 2px solid hsla(0, 0%, 96%, 0.589);
   overflow-x: hidden;
   transition: 0.5s;
