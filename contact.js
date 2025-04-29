@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.getElementById('contact-form');
     const feedback = document.getElementById('contact-feedback');
 
-    contactForm.addEventListener('submit', (e) => {
+    contactForm.addEventListener('#contact-button', (e) => {
         e.preventDefault();
         
         let valid = true;
